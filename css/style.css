@@ -1,0 +1,27 @@
+
+.header{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1060px;
+}
+.wrapper_header{  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.main{
+    margin: o;
+    background: url(/img/bg_main.png);
+    background-size: cover;
+}
+.nav_list{
+    display: flex;
+
+}
