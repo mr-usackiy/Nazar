@@ -4,6 +4,9 @@
     top:0;
     left: 0;
     width: 100%;
+    background-color: rgb(52, 64, 81);
+    height: 61px;
+    z-index: 162;      
 }
 .wrapper{
     margin: 0 auto;
@@ -14,14 +17,75 @@
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 56px;
+    padding-top: 16px;
 }
 .main{
-    margin: o;
     background: url(/img/bg_main.png);
     background-size: cover;
 }
-.nav_list{
+.logo{
+    font-size: 16.667px;
+    font-family: "Franklin Gothic Medium";
+    color: rgb(255, 255, 255);
+  }
+ul{
     display: flex;
+    flex-wrap: wrap;
+}
+.nav_list{
+    margin-right: 483px;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_text{
+    color: aliceblue;
+    margin-right: 35px;
+    font-size: 16.667px;
+    font-family: "Franklin Gothic Medium";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}      
+.main{
+    padding-top:109px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.title_container_text{
+    text-align: center;
+    font-size: 79px;
+    font-family: "Franklin Gothic Medium";
+    color: rgb(44, 56, 74);
 
+}
+.title_container_text2{
+    padding-top: 29px;
+    text-align: center;
+    font-size: 21px;
+    font-family: "Franklin Gothic Medium";
+    color: rgb(121, 129, 141);
+      
+}
+.title_container_btns{
+    text-align: center;
+    padding-top: 70px;
+    margin-left: 26px;
+}
+.title_container_btn{
+    text-decoration: none;
+    padding: 10px;
+    overflow:hidden;
+    border-width: 2.083px;
+    border-color: rgb(109, 118, 130);
+    background-color: rgb(235, 235, 242);
+    border-style: solid;
+    border-radius: 5px;
+    width: 90.834px;
+    height: 37.834px;
+    font-size: 16.667px;
+    font-family: "Franklin Gothic Medium";
+    color: rgb(109, 118, 130);
+     margin-right: 26px;     
 }
