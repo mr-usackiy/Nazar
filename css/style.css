@@ -178,6 +178,7 @@ font-size: 33px;
 }
 
 .title_container_text4{
+    line-height: 1.2;
     margin-bottom: 36px;
     text-align: left;
     font-size: 16.667px;
@@ -240,6 +241,7 @@ font-size: 33px;
 }
 .title_container_text6{
     margin-bottom: 36px;
+    line-height: 21px;
     text-align: center;
     font-size: 16.667px;
     font-family: "Calibri";
@@ -253,3 +255,81 @@ font-size: 33px;
    
       
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper_cases{
+    text-align: center;
+    transform: translate(0,-100px);
+}
+.cases_text{
+    font-size: 16.667px;
+    font-family: "Calibri";
+    color: rgb(63, 73, 90); 
+    padding: 36px 0px 39px 0px;
+}
+.cases_overlook{
+    margin: 0 auto;
+    align-items: flex-start;
+    width: 1200px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.visit_live_site{
+    text-align: left;
+}
+.client{
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(63, 73, 90); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title_container_text7{
+    padding: 7px 0px 12px 0px;
+    font-size: 16.667px;
+    font-family: "Calibri";
+    color: rgb(63, 73, 90);
+}
+.visit_btn{
+    width: 206px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #63b5ae;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name_project{
+    padding-left: 82px;
+    text-align: left;
+}
+
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+    font-size: 21px;
+    font-family: "Calibri";
+    color: rgb(63, 73, 90);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: scale(1, 0.96);
+    -webkit-transform: scale(1, 0.96);
+    -ms-transform: scale(1, 0.96);
+    position: absolute;
+    left: 671.685px;
+    top: 3219.622px;
+    z-index: 98;
+  }
+  
