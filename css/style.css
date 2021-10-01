@@ -13,11 +13,11 @@
     max-width: 1060px;
 }
 .wrapper_header{  
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 16px;
 }
 .main{
     background: url(/img/bg_main.png);
@@ -45,7 +45,29 @@ ul{
     font-family: "Franklin Gothic Medium";
     color: rgb(255, 255, 255);
     text-decoration: none;
-}      
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main{
     padding-top:109px;
     display: flex;
@@ -110,14 +132,31 @@ ul{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .wrapper_am{
     filter: drop-shadow(0px -10px 30px rgba(0, 0, 0, 0.267));
     background-color: rgb(255, 255, 255);
     transform: translate(0,-100px);
     width: 100%;
-    min-height: 700px;
+    min-height: 717px;
 }
-.wrapper_am_container{
+.wrapper_title_container{
     padding-top: 108px;
     text-align: center;
     width: 810px;
@@ -132,7 +171,7 @@ font-size: 33px;
     margin-top: 31px;
     padding: 2px;
     width: 62px;
-    background-color: rgb(209, 119, 0);
+    background-color: rgb(235, 103, 10);
 }
 .circle_photo{
     padding: 59px 0px 22px 0px;
@@ -163,4 +202,54 @@ font-size: 33px;
 }
 .title_container_btn_am_icon{
    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper_wic{
+    height: 523px;
+    transform: translate(0,-100px);
+    width: 100%;
+    background: url(../img/bg_what_i_can.png) no-repeat;
+    background-size: cover;
+}
+.type_works{
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 107px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.type_works_card{
+    text-align: center;
+    padding:0px 42px 0px 42px;
+    width: 245px;
+}
+.title_container_text6{
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 16.667px;
+    font-family: "Calibri";
+    color: rgb(63, 73, 90); 
+}
+.title_container_text5{
+    font-size: 21px;
+    font-family: "Bahnschrift";
+    color: rgb(235, 103, 10);
+    padding: 34px 0px 14px 0px;
+   
+      
 }
