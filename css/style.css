@@ -219,7 +219,6 @@ font-size: 33px;
 
 
 
-
 .wrapper_wic{
     height: 523px;
     transform: translate(0,-100px);
@@ -291,6 +290,7 @@ font-size: 33px;
     text-align: left;
 }
 .client{
+    text-align: left;
     font-weight: bold;
     font-size: 21px;
     color: rgb(63, 73, 90); 
@@ -333,3 +333,51 @@ font-size: 33px;
     z-index: 98;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper_calc{
+    width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper_calc_title{
+    text-align: center;
+}
+.wrapper_calc_inputs{
+    margin: 0 auto;
+    width: 891px;
+    padding-top: 50px;
+}
+.input_calc{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 891px;
+    height: 57px;
+    background-color: rgb(238, 238, 283);
+}
+.input_place{
+    padding-top: 7px;
+    width: 791px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
