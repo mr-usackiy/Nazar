@@ -376,7 +376,7 @@ font-size: 33px;
     margin-top: 20px;
     width: 891px;
     height: 57px;
-    background-color: rgb(238, 238, 283);
+    background-color: #eeeeee;
 }
 .input_place{
     padding-top: 7px;
@@ -393,18 +393,20 @@ font-size: 33px;
     display: flex;
     justify-content: center;
     z-index: 10;
-    top: 0px;
+    top: 57px;
     left: 0px;
     position: absolute;
-    width: 891px;
-    height: 330px;
-    background-color: rgb(238, 238, 283);
+    width: 841px;
+    height: 300px;
+    background-color: #eeeeee;
     filter: drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.267));
-    visibility:hidden;
-    transition: 1s;
-
-
+    display:none;
 }
+.input_calc:hover .popup_type_site{
+    display:block;
+    padding-left: 50px;
+}
+
 .popup_points{
     padding-top: 30px;
     text-align: left;
@@ -422,4 +424,24 @@ font-size: 33px;
 .popup_points a:hover{
     color:brown;
     transition: 0.3s;
+}
+.result_line{
+    margin: 0 auto;
+    height: 2px;
+    width: 891px;
+    background-color: rgb(196, 192, 192);
+}
+.result{
+  
+    font-family: "Calibri";
+    color: rgb(63, 73, 90);
+    line-height: 24px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.w_result{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 891px;
 }
