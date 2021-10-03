@@ -45,6 +45,7 @@ html{
 }
 .logo_text{
     text-decoration: none;  
+    color: white;
 }
 ul{
     display: flex;
