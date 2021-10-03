@@ -399,8 +399,9 @@ font-size: 33px;
     width: 891px;
     height: 330px;
     background-color: rgb(238, 238, 283);
-    filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.267));
-
+    filter: drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.267));
+    visibility:hidden;
+    transition: 1s;
 
 
 }
@@ -418,4 +419,7 @@ font-size: 33px;
     line-height: 54px;
     font-size: 20px;
 }
-
+.popup_points a:hover{
+    color:brown;
+    transition: 0.3s;
+}
