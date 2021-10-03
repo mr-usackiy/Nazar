@@ -41,10 +41,10 @@ html{
     font-size: 16.667px;
     font-family: "Franklin Gothic Medium";
     color: rgb(255, 255, 255);
-    text-decoration: none;
 }
-.logo h1{
+.logo_text{
     text-decoration: none;  
+    color: rgb(255, 255, 255);
 }
 ul{
     display: flex;
