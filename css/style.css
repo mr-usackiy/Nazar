@@ -1,4 +1,18 @@
 
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
 .header{
     position:fixed;
     top:0;
@@ -27,7 +41,11 @@
     font-size: 16.667px;
     font-family: "Franklin Gothic Medium";
     color: rgb(255, 255, 255);
-  }
+    text-decoration: none;
+}
+.logo h1{
+    text-decoration: none;  
+}
 ul{
     display: flex;
     flex-wrap: wrap;
