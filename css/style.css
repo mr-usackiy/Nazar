@@ -335,21 +335,6 @@ font-size: 33px;
     text-align: left;
 }
 
-
-.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
-    font-size: 21px;
-    font-family: "Calibri";
-    color: rgb(63, 73, 90);
-    line-height: 1.2;
-    text-align: left;
-    -moz-transform: scale(1, 0.96);
-    -webkit-transform: scale(1, 0.96);
-    -ms-transform: scale(1, 0.96);
-    position: absolute;
-    left: 671.685px;
-    top: 3219.622px;
-    z-index: 98;
-  }
   
 
 
@@ -383,6 +368,7 @@ font-size: 33px;
     padding-top: 50px;
 }
 .input_calc{
+    position: relative;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -399,3 +385,37 @@ font-size: 33px;
     display: flex;
     align-items: center;
 }
+
+
+
+/*popaps_srat*/
+.popup_type_site{
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 891px;
+    height: 330px;
+    background-color: rgb(238, 238, 283);
+    filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.267));
+
+
+
+}
+.popup_points{
+    padding-top: 30px;
+    text-align: left;
+    width: 791px;
+    
+}
+.popup_points a{
+    text-decoration: none;
+    font-size: 16.667px;
+    font-family: "Calibri";
+    color: rgb(63, 73, 90);
+    line-height: 54px;
+    font-size: 20px;
+}
+
