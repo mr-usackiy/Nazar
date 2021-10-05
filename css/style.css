@@ -33,10 +33,6 @@ html{
     align-items: flex-end;
     justify-content: space-between;
 }
-.main{
-    background: url(/img/bg_main.png);
-    background-size: cover;
-}
 .logo{
     font-size: 16.667px;
     font-family: "Franklin Gothic Medium";
@@ -87,6 +83,8 @@ ul{
 
 
 .main{
+    background: url(/img/bg_main.png);
+    background-size: cover;
     padding-top:109px;
     display: flex;
     flex-wrap: wrap;
@@ -261,8 +259,8 @@ font-size: 33px;
     line-height: 21px;
     text-align: center;
     font-size: 16.667px;
-    font-family: "Calibri";
-    color: rgb(63, 73, 90); 
+    font-family: "arial";
+    color: #323e4f; 
 }
 .title_container_text5{
     font-size: 21px;
@@ -444,4 +442,87 @@ font-size: 33px;
     padding-top: 50px;
     margin: 0 auto;
     width: 891px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.some_stsatistic{
+    background-image: url(/img/bg_statisticpng.png);
+    background-size: cover;
+    height: 523px;
+    transform: translate(0,100px);
+    width: 100%;
+}
+.some_stsatistic_wrap{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.title_container_text9{
+    padding: 35px 0px 35px 0px;
+    font-family: Impact;
+    font-size: 35px;
+    color: #323e4f;
+    font-weight: bold;
+}
+.title_container_text10{
+    font-family: Franklin Gothic Medium;
+    font-size: 20px;
+    color: #323e4f;
+}
+
+
+
+
+
+
+
+.rewiews{
+    width: 100%;
+    height: 523px;
+    text-align: center;
+    transform: translate(0,100px);
+}
+
+.rewiews_container{
+    padding-top: 103px;
+
+}
+b{
+    font-weight: bold;
 }
