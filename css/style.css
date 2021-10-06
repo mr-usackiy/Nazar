@@ -13,14 +13,16 @@ html{
 
 
 
-.header{
+header{
     position:fixed;
     top:0;
     left: 0;
     width: 100%;
     background-color: rgb(52, 64, 81);
     height: 61px;
-    z-index: 162;      
+    z-index: 162; 
+    filter: drop-shadow(0px -10px 30px rgba(0, 0, 0, 0.87));
+         
 }
 .wrapper{
     margin: 0 auto;
@@ -131,6 +133,46 @@ ul{
 
 
 
+
+
+
+.title_container{
+    animation: bounce-in-right 2s ease;
+    animation-duration: 2s;
+}
+
+@keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(1000px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-30px);
+    }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+
+.gay_main{
+    animation-name: move2;
+    animation-duration: 2s;
+    filter: drop-shadow(10px -10px 300px rgba(0, 0, 0, 0.582));
+}
+
+@keyframes move2 {
+    0% {
+        transform: translate(100px,0);
+        opacity: 0;
+    }
+
+    
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
 
 
 
