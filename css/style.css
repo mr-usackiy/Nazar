@@ -260,7 +260,29 @@ ul{
         width: 435px;
     }
 }
-
+@media (max-width:992px){
+    .main{
+        padding-top: 90px;
+        width: 992px;
+        
+    }
+    .title_container_text{
+        font-size: 30px;
+    }
+    .title_container_text2{
+        font-size: 14px;
+        padding-top: 12px;
+    }
+    .title_container_btns{
+        padding-top: 25px;
+    }
+    .title_container_btn{
+        font-size: 12px;
+    }
+    .gay_main{
+        width: 335px;
+    }
+}
 
 
 
@@ -365,6 +387,27 @@ font-size: 33px;
         font-size: 24px;
     }
 }
+@media (max-width:992px){
+    .wrapper_am{
+        transform: translate(0,-50px);
+        width: 992px;
+    }
+    .title_container_text3{
+        font-size: 24px;
+    }
+    .wrapper_title_container{
+        padding-top: 250px;
+        text-align: center;
+        width: 810px;
+        margin: 0 auto;
+    }
+    .line{
+        margin-top: 13px;
+    }
+    .circle_photo{
+        padding: 20px 0px 12px 0px;
+    }
+}
 
 
 
@@ -448,7 +491,22 @@ font-size: 33px;
         width: 200px;
     }
 }
-
+@media (max-width:992px){
+    .wrapper_wic{
+        margin: 0 auto;
+        width: 992px;
+    }
+    .wrapper_title_container{
+        padding-top: 34px;
+    }
+    .type_works{
+        padding-top: 68px;
+        justify-content: space-around;
+    }
+    .type_works_card{
+        width: 150px;
+    }
+}
 
 
 
@@ -555,6 +613,31 @@ font-size: 33px;
     }
     .client{
         font-size: 28px;
+    }
+  }
+  @media (max-width:992px) {
+    .wrapper_cases{
+        width: 992px;
+        margin: 0 auto;
+    }
+    .cases_text{
+        font-size: 23px;
+    }
+    .title_container_text7{
+        font-size: 23px;
+    }
+    .title_container_text4{
+        font-size: 24px;
+    }
+    .visit_btn{
+        font-size: 23px;
+    }
+    .client{
+        font-size: 28px;
+    }
+    .name_project {
+        padding-left: 22px;
+        text-align: center;
     }
   }
 
@@ -685,6 +768,20 @@ font-size: 33px;
 
 
 }
+@media (max-width: 992px){
+    .wrapper_calc{
+        width: 992px;
+        margin: 0 auto;
+    }
+    .input_calc{
+        margin-top: 7px;
+        width: 885px;
+        height: 40px;
+    }
+    .title_container_text3{
+        padding-top: 66px;
+    }
+}
 
 
 
@@ -755,6 +852,14 @@ font-size: 33px;
 @media (max-width: 1200px){
     .some_stsatistic{
         width: 1200px;
+        margin: 0 auto;
+    }
+
+
+}
+@media (max-width: 992px){
+    .some_stsatistic{
+        width: 992px;
         margin: 0 auto;
     }
 
@@ -851,6 +956,24 @@ b{
 
 }
 
+@media (max-width: 1200px){
+    .rewiews{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+
+}
+@media (max-width: 992px){
+    .rewiews{
+        width: 992px;
+        margin: 0 auto;
+    }
+    .client{
+        font-size: 16px;
+    }
+}
+
 
 
 
@@ -877,7 +1000,7 @@ b{
     width: 100%;
     height: 810px;
     transform: translate(0,160px);
-    background-image: url(../img/bg_contacts.png);
+    background-image: url(../img/bg_contacts.png) ;
     background-size: cover;
     text-align: center;
     justify-content: center;
@@ -946,6 +1069,9 @@ b{
     background-color: #d3d6dc;
     margin-bottom: 35px;
 }
+.wrap_btn_cocnact{
+    text-decoration: none;
+}
 ::placeholder{
     text-align: start;
     padding-left: 10px;
@@ -975,8 +1101,6 @@ b{
         width: 1400px;
         margin: 0 auto;
     }
-
-
 }
 
 @media (max-width: 1200px){
@@ -984,10 +1108,42 @@ b{
         width: 1200px;
         margin: 0 auto;
     }
-
-
 }
-
+@media (max-width: 992px){
+    .contacts{
+        width: 992px;
+        margin: 0 auto;
+        height: 584px;
+    }
+    .title_container_text11{
+    font-size: 20px;
+    padding-top: 50px;
+    }
+    .contact_text{
+        padding: 16px 0px 6px 0px;
+    }
+    .input_cocntainer_1{
+        width: 50%;
+    }
+    .contact_input_Email{
+        margin: 10px 0px;
+        height: 27px;
+    }
+    .contact_input_name{
+        margin: 0px;
+        height: 27px;
+    }
+    .input_cocntainer_2{
+        transform: translate(202px,-102px);
+        width: 457px;
+        height: 72px;
+    }
+    .btn_cocnact{
+        transform: translate(0px,-103px);
+        height: 32px;
+        width: 182px;
+    }
+}
 
 
 
@@ -1006,13 +1162,19 @@ b{
         width: 1400px;
         margin: 0 auto;
     }
-
-
 }
 
 @media (max-width: 1200px){
     .map{
         width: 1200px;
+        margin: 0 auto;
+    }
+
+
+}
+@media (max-width: 992px){
+    .map{
+        width: 992px;
         margin: 0 auto;
     }
 
@@ -1056,4 +1218,11 @@ b{
     }
 
 
+}
+
+@media (max-width: 992px){
+    .footer{
+        width: 992px;
+        margin: 0 auto;
+    }
 }
