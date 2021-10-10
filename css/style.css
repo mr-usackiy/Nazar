@@ -69,7 +69,17 @@ ul{
 }
 
 
-
+@media (max-width:992px){
+    .wrapper{
+        margin: 0 auto;
+        width: 750px;
+    }
+    .logo{
+        font-size: 16.667px;
+        font-family: "Franklin Gothic Medium";
+        color: rgb(255, 255, 255);
+    }
+}
 
 
 
@@ -227,7 +237,29 @@ ul{
         width: 435px;
     }
 }
-
+@media (max-width:992px){
+    .main{
+        padding-top: 90px;
+        width: 990px;
+        
+    }
+    .title_container_text{
+        font-size: 35px;
+    }
+    .title_container_text2{
+        font-size: 17px;
+        padding-top: 12px;
+    }
+    .title_container_btns{
+        padding-top: 30px;
+    }
+    .title_container_btn{
+        font-size: 13px;
+    }
+    .gay_main{
+        width: 435px;
+    }
+}
 
 
 
@@ -647,7 +679,7 @@ font-size: 33px;
 
 @media (max-width: 1200px){
     .wrapper_calc{
-        width: 1200;
+        width: 1200px;
         margin: 0 auto;
     }
 
@@ -722,7 +754,7 @@ font-size: 33px;
 
 @media (max-width: 1200px){
     .some_stsatistic{
-        width: 1200;
+        width: 1200px;
         margin: 0 auto;
     }
 
@@ -812,7 +844,7 @@ b{
 
 @media (max-width: 1200px){
     .rewiews{
-        width: 1200;
+        width: 1200px;
         margin: 0 auto;
     }
 
@@ -949,7 +981,7 @@ b{
 
 @media (max-width: 1200px){
     .contacts{
-        width: 1200;
+        width: 1200px;
         margin: 0 auto;
     }
 
@@ -980,7 +1012,7 @@ b{
 
 @media (max-width: 1200px){
     .map{
-        width: 1200;
+        width: 1200px;
         margin: 0 auto;
     }
 
@@ -1019,7 +1051,7 @@ b{
 
 @media (max-width: 1200px){
     .footer{
-        width: 1200;
+        width: 1200px;
         margin: 0 auto;
     }
 
