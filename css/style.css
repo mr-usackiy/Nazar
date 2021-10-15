@@ -351,7 +351,6 @@ ul{
     }
 }
 
-}
 @media (max-width:992px){
     .main{
         padding-top: 90px;
@@ -417,6 +416,7 @@ ul{
     .gay_main{
         padding-top: 29px;
         width: 360px;
+    }
 }
     
 
@@ -660,10 +660,9 @@ font-size: 33px;
     font-size: 21px;
     font-family: "Bahnschrift";
     color: rgb(235, 103, 10);
-    padding: 34px 0px 14px 0px;
-   
-      
+    padding: 34px 0px 14px 0px;    
 }
+
 @media (max-width:1442px){
     .wrapper_wic{
         margin: 0 auto;
@@ -802,7 +801,7 @@ font-size: 33px;
     text-align: left;
 }
 
-  @media (max-width:1442px) {
+@media (max-width:1442px) {
     .wrapper_cases{
         width: 1400px;
         margin: 0 auto;
@@ -822,8 +821,9 @@ font-size: 33px;
     .client{
         font-size: 28px;
     }
-  }
-  @media (max-width:1200px) {
+}
+
+@media (max-width:1200px) {
     .wrapper_cases{
         width: 1200px;
         margin: 0 auto;
@@ -843,8 +843,9 @@ font-size: 33px;
     .client{
         font-size: 28px;
     }
-  }
-  @media (max-width:992px) {
+}
+
+@media (max-width:992px) {
     .wrapper_cases{
         width: 992px;
         margin: 0 auto;
@@ -868,8 +869,9 @@ font-size: 33px;
         padding-left: 22px;
         text-align: center;
     }
-  }
-  @media (max-width:376px){
+}
+
+@media (max-width:376px){
     .wrapper_cases{
         width: 375px;
         margin: 0 auto;
@@ -1020,7 +1022,6 @@ font-size: 33px;
     background-color: rgb(196, 192, 192);
 }
 .result{
-  
     font-family: "Calibri";
     color: rgb(63, 73, 90);
     line-height: 24px;
@@ -1041,8 +1042,6 @@ font-size: 33px;
         width: 1400px;
         margin: 0 auto;
     }
-
-
 }
 
 @media (max-width: 1200px){
@@ -1050,8 +1049,6 @@ font-size: 33px;
         width: 1200px;
         margin: 0 auto;
     }
-
-
 }
 @media (max-width: 992px){
     .wrapper_calc{
@@ -1132,8 +1129,6 @@ font-size: 33px;
         width: 1400px;
         margin: 0 auto;
     }
-
-
 }
 
 @media (max-width: 1200px){
@@ -1141,19 +1136,15 @@ font-size: 33px;
         width: 1200px;
         margin: 0 auto;
     }
-
-
 }
 @media (max-width: 992px){
     .some_stsatistic{
         width: 992px;
         margin: 0 auto;
     }
-
-
 }
 
-@media (max-width:375px){
+@media (max-width:376px){
     .some_stsatistic{
         width: 375px;
         margin: 0 auto;
@@ -1265,7 +1256,7 @@ b{
     }
 }
 
-@media (max-width:375px){
+@media (max-width:376px){
     .rewiews{
         width: 375px;
         margin: 0 auto;
@@ -1441,7 +1432,7 @@ b{
     }
 }
 
-@media (max-width:375px){
+@media (max-width:376px){
     .contacts{
         width: 375px;
         margin: 0 auto;
@@ -1478,7 +1469,7 @@ b{
         margin: 0 auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:376px){
     .map{
         width: 375px;
         margin: 0 auto;
@@ -1525,7 +1516,7 @@ b{
         margin: 0 auto;
     }
 }
-@media (max-width:375px){
+@media (max-width:376px){
     .footer{
         width: 375px;
         margin: 0 auto;
