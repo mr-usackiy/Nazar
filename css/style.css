@@ -10,8 +10,65 @@ html{
 
 
 
+.preloader{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 10000;
+    transition: 2s all;
+    visibility: visible;
+    opacity: 1;
+}
+.load{
+    animation: 2s loading infinite linear;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid rgb(155, 155, 155);
+    border-top-color: rgb(255, 153, 0);
+    z-index: 10001;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.inload{
+    animation: 4s inloading infinite linear;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 10001;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
+.done {
+    visibility: hidden;
+    opacity: 0;
+}
+@keyframes loading{
+    from{
+        transform:translate(-50%, -50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%, -50%) rotate(360deg);
+    }
+}
+@keyframes inloading{
+    from{
+        transform: translate(-50%, -50%) rotateX(0deg);
+    }
+    to{
+        transform: translate(-50%, -50%) rotateX(360deg);
+    }
+}
 
 header{
     position:fixed;
@@ -25,30 +82,9 @@ header{
          
 }
 .wrapper{
-    animation-name: header_wrap;
-    animation: header_wrap 2s ease;
-    
-    animation-duration: 2s;
     margin: 0 auto;
     max-width: 1060px;
-}
-@keyframes header_wrap{
-    0%{
-        transform:translateY(-100px)
-    }
-    20%{
-        transform:translateY(-20px)
-    }
-    30%{
-        transform:translateY(0px)
-    }
-    40%{
-        transform:translateY(-10px)
-    }
-    45%{
-        transform:translateY(0)
-    }
-    
+
 
 
 
@@ -217,6 +253,7 @@ ul{
 .title_container{
     animation: bounce-in-right 2s ease;
     animation-duration: 2s;
+    animation-delay:2s;
 }
 
 @keyframes bounce-in-right {
@@ -234,6 +271,7 @@ ul{
 
 
 .gay_main{
+    animation-delay:2s;
     animation-name: move2;
     animation-duration: 2s;
     filter: drop-shadow(10px -10px 300px rgba(0, 0, 0, 0.582));
