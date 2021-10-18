@@ -194,9 +194,10 @@ ul{
 
 .main{
     width: 100%;
+    height: 80%;
     background: url(../img/bg_main.png) center no-repeat;
     background-size: cover;
-    padding-top:109px;
+    padding-top:90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -943,7 +944,11 @@ font-size: 33px;
 
 
 
-
+.s{
+    width: 100%;
+    height: 1px;
+    transform: translateY(-100px);
+}
 .wrapper_calc{
     width: 1440px; 
     margin: 0 auto;
