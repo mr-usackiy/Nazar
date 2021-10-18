@@ -1588,9 +1588,9 @@ b{
     }
 }
 
-@media(max-width:769px){
+@media(max-width:768px){
    .contacts{
-        max-width: 769px;
+        max-width: 768px;
         margin: 0 auto;
         height: 584px;
     }
@@ -1598,29 +1598,40 @@ b{
     font-size: 20px;
     padding-top: 50px;
     }
+    .title_container_text13{
+        font-size: 11px;
+    }
     .contact_text{
         padding: 16px 0px 6px 0px;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 13px;
     }
     .input_cocntainer_1{
         max-width: 50%;
+        padding-top:10px;
+        margin: 0 auto;
     }
     .contact_input_Email{
-        margin: 10px 0px;
-        height: 27px;
+        margin: 5px 0px;
+        height: 15px;
     }
     .contact_input_name{
         margin: 0px;
-        height: 27px;
+        height: 15px;
     }
     .input_cocntainer_2{
-        transform: translate(-140px,-16px);
+        transform: translate(15px,-16px);
         max-width: 457px;
         height: 72px;
     }
     .btn_cocnact{
-        transform: translate(0px,0px);
+        transform: translate(15px,-44px);
         height: 32px;
         max-width: 182px;
+    }
+    .text_contact_write_me{
+        font-size: 15px;
     }
 }
 
