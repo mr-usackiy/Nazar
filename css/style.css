@@ -174,7 +174,25 @@ ul{
         display: none;
     }
 }
+@media (max-width:769px){
+    header{
+        display: none;
+    }
+    .logo_text {
+        display: none;
+    }
+    .wrapper_header{  
+        padding-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
 
+    .header_nav{
+        display: none;
+    }
+}
 
 
 
@@ -373,6 +391,12 @@ ul{
     }
     .gay_main{
         width: 335px;
+    }
+}
+@media (max-width:769px){
+    .main{
+        width: 769px;
+
     }
 }
 @media (max-width:376px){
@@ -579,7 +603,12 @@ font-size: 33px;
         padding: 20px 0px 12px 0px;
     }
 }
-
+@media (max-width:769px){
+    .wrapper_am{
+        width: 769px;
+        
+    }
+}
 @media (max-width:376px){
     .wrapper_am{
         transform: translate(0,-50px);
@@ -713,7 +742,12 @@ font-size: 33px;
         width: 150px;
     }
 }
-
+@media (max-width:769px){
+    .wrapper_wic{
+        width: 769px;
+        
+    }
+}
 @media (max-width:376px){
     .wrapper_wic{
         margin: 0 auto;
@@ -872,10 +906,71 @@ font-size: 33px;
         text-align: center;
     }
 }
-
+@media (max-width:769px){
+    .wrapper_cases{
+        width: 769px;
+        
+    }
+}
 @media (max-width:376px){
     .wrapper_cases{
         width: 375px;
+        margin: 0 auto;
+        text-align: center;
+        transform: translate(0,-190px);
+    }
+    .cases_text{
+        text-align: center;
+        font-size: 16px;
+        font-family: "Calibri";
+        color: rgb(63, 73, 90); 
+        padding: 26px 7px 39px 7px;
+    }
+    .screen_site{
+        max-width: 80%;
+    }
+    .cases_overlook{
+        margin: 0 auto;
+        align-items: flex-start;
+        width: 80%;
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .visit_live_site{
+        text-align: left;
+    }
+    .client{
+        text-align: left;
+        font-weight: bold;
+        font-size: 21px;
+        color: rgb(63, 73, 90); 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .title_container_text7{
+        padding: 7px 0px 12px 0px;
+        font-size: 16.667px;
+        font-family: "Calibri";
+        color: rgb(63, 73, 90);
+    }
+    .visit_btn{
+        width: 206px;
+        height: 45px;
+        border-radius: 5px;
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color: #63b5ae;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .name_project{
+        padding-left: 82px;
+        text-align: left;
+    }
+}
+@media (max-width:769px){
+    .wrapper_cases{
+        width: 769px;
         margin: 0 auto;
         text-align: center;
         transform: translate(0,-190px);
@@ -982,8 +1077,6 @@ font-size: 33px;
     align-items: center;
 }
 
-
-
 /*popaps_srat*/
 .popup_type_site{
     display: flex;
@@ -1067,7 +1160,28 @@ font-size: 33px;
         height: 40px;
     }
 }
-
+@media (max-width:769px){
+    .wrapper_calc{
+        width: 769px;
+        
+    }
+    .result_line{
+        width: 769px;
+    }
+    .w_result{
+        width: 769px;
+    }
+    .calc_forms{
+        padding: 15px;
+        width: 769px; 
+    }
+    .wrapper_calc_inputs{
+        width: 769px;
+    }
+    .input_calc{
+        width: 769px;
+    }
+}
 @media (max-width:376px){
     .wrapper_calc{
         width: 375px;
@@ -1149,7 +1263,11 @@ font-size: 33px;
         margin: 0 auto;
     }
 }
-
+@media (max-width: 769px){
+    .some_stsatistic{
+        width: 769px;
+    }
+}
 @media (max-width:376px){
     .some_stsatistic{
         width: 375px;
@@ -1261,7 +1379,11 @@ b{
         font-size: 16px;
     }
 }
-
+@media(max-width:769px){
+    .rewiews{
+        width: 769px;
+    }
+}
 @media (max-width:376px){
     .rewiews{
         width: 375px;
@@ -1438,10 +1560,39 @@ b{
     }
 }
 
-@media (max-width:376px){
-    .contacts{
-        width: 375px;
+@media(max-width:769px){
+   .contacts{
+        width: 769px;
         margin: 0 auto;
+        height: 584px;
+    }
+    .title_container_text11{
+    font-size: 20px;
+    padding-top: 50px;
+    }
+    .contact_text{
+        padding: 16px 0px 6px 0px;
+    }
+    .input_cocntainer_1{
+        width: 50%;
+    }
+    .contact_input_Email{
+        margin: 10px 0px;
+        height: 27px;
+    }
+    .contact_input_name{
+        margin: 0px;
+        height: 27px;
+    }
+    .input_cocntainer_2{
+        transform: translate(-140px,-16px);
+        width: 457px;
+        height: 72px;
+    }
+    .btn_cocnact{
+        transform: translate(0px,0px);
+        height: 32px;
+        width: 182px;
     }
 }
 
@@ -1473,6 +1624,11 @@ b{
     .map{
         width: 992px;
         margin: 0 auto;
+    }
+}
+@media (max-width:769px){
+    .map{
+        width: 769px;
     }
 }
 @media (max-width:376px){
@@ -1519,6 +1675,12 @@ b{
 @media (max-width: 992px){
     .footer{
         width: 992px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:769px){
+    .footer{
+        width: 769px;
         margin: 0 auto;
     }
 }
