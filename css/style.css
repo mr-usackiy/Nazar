@@ -214,7 +214,7 @@ ul{
 
 .main{
     max-width: 100%;
-    height: 80%;
+    height: 100%;
     background: url(../img/bg_main.png) center no-repeat;
     background-size: cover;
     padding-top:90px;
@@ -398,7 +398,10 @@ ul{
 @media (max-width:769px){
     .main{
         max-width: 768px;
-
+        padding-bottom: 10px;
+    }
+    .gay_main{
+        width:95%;
     }
 }
 @media (max-width:376px){
@@ -807,7 +810,7 @@ font-size: 33px;
     max-width: 80%;
     padding-top: 50px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .visit_live_site{
     text-align: left;
@@ -971,9 +974,9 @@ font-size: 33px;
         text-align: left;
     }
 }
-@media (max-width:769px){
+@media (max-width:768px){
     .wrapper_cases{
-        max-width: 769px;
+        max-width: 768px;
         margin: 0 auto;
         text-align: center;
         transform: translate(0,-190px);
@@ -994,12 +997,13 @@ font-size: 33px;
         max-width: 80%;
         padding-top: 50px;
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
     .visit_live_site{
         text-align: left;
     }
     .client{
+        padding-top: 15px 0px 5px 0px;
         text-align: left;
         font-weight: bold;
         font-size: 21px;
@@ -1023,8 +1027,11 @@ font-size: 33px;
         font-family: Arial, Helvetica, sans-serif;
     }
     .name_project{
-        padding-left: 82px;
+        padding: 0px 10px 0px 0px;
         text-align: left;
+    }
+    .title_container_text4{
+        padding: 0px;
     }
 }
 
@@ -1234,6 +1241,7 @@ font-size: 33px;
 .some_stsatistic_wrap{
     padding-top: 90px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
 
