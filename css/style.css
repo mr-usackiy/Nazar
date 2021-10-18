@@ -588,6 +588,7 @@ font-size: 33px;
         font-size: 24px;
     }
 }
+
 @media (max-width:992px){
     .wrapper_am{
         transform: translate(0,-50px);
@@ -609,10 +610,13 @@ font-size: 33px;
         padding: 20px 0px 12px 0px;
     }
 }
-@media (max-width:769px){
+
+@media (max-width:768px){
     .wrapper_am{
-        max-width: 769px;
-        
+        max-width: 768px;
+    }
+    .title_container_text4{
+        font-size: 18px;
     }
 }
 @media (max-width:376px){
@@ -682,8 +686,7 @@ font-size: 33px;
     max-width: 245px;
 }
 .rocket_ico{
-    transform: translate(0,4
-0px);
+    transform: translate(0,40px);
 }
 .title_container_text6{
     margin-bottom: 36px;
@@ -752,6 +755,12 @@ font-size: 33px;
     .wrapper_wic{
         max-width: 769px;
         
+    }
+    .img_megaphone{
+        transform: translateY(10px);
+    }
+    .rocket_ico{
+        transform: translateY(35px);
     }
 }
 @media (max-width:376px){
@@ -917,6 +926,9 @@ font-size: 33px;
         max-width: 769px;
         
     }
+    .title_container_text4{
+        font-size: 18px;
+    }
 }
 @media (max-width:376px){
     .wrapper_cases{
@@ -1023,7 +1035,7 @@ font-size: 33px;
         border: none;
         color: rgb(255, 255, 255);
         background-color: #63b5ae;
-        font-size: 21px;
+        font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
     }
     .name_project{
@@ -1401,6 +1413,7 @@ b{
 }
 @media (max-width:376px){
     .rewiews{
+        padding: 70px;
         max-width: 375px;
         margin: 0 auto;
     }
