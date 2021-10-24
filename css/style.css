@@ -673,7 +673,16 @@ font-size: 33px;
     background: url(../img/bg_what_i_can.png) no-repeat;
     background-size: cover;
 }
+.img{
+    width: 30%;
+    margin: 0 auto;
+}
+.icon{
+    width: 100%;
+}
 .type_works{
+    height: 100%;
+    max-width: 100%;
     align-items: flex-end;
     justify-content: center;
     padding-top: 107px;
@@ -683,7 +692,8 @@ font-size: 33px;
 .type_works_card{
     text-align: center;
     padding:0px 42px 0px 42px;
-    max-width: 245px;
+    max-width: 25%;
+    max-height: 25%;
 }
 .rocket_ico{
     transform: translate(0,40px);
@@ -732,7 +742,7 @@ font-size: 33px;
         justify-content: space-around;
     }
     .type_works_card{
-        max-width: 200px;
+        max-width: 25%;
     }
 }
 @media (max-width:992px){
@@ -748,7 +758,7 @@ font-size: 33px;
         justify-content: space-around;
     }
     .type_works_card{
-        max-width: 150px;
+        max-width: 25%;
     }
 }
 @media (max-width:769px){
@@ -786,7 +796,7 @@ font-size: 33px;
     .type_works_card{
         text-align: center;
         padding: 0px 1px 0px 1px;
-        max-width: 45%;
+        max-width: 25%;
     }
     
 }
